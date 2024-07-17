@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "price": 200,
+        "city": "New York",
+        "desc": "New York, the city that never sleeps, is known for its iconic skyline, diverse culture, and vibrant arts scene. From Broadway shows to world-class museums, there's something for everyone in this bustling metropolis.",
+        "img": "https://lh3.googleusercontent.com/proxy/g-ljxmC9hqYpgbNRM2dhT4x30UsLIeylGkNR8j7xU75F3uXUHTB-hNcdjNy_H5_ZxgnbUxNUvne8TOZBcYT-BwoIQZgXwXlkyciXBHBPkNH2SavG7WhWDqT383O5PPPhie3Pw0fSRriv3TF8TEb8cu7JuH5-_Q=w675-h390-n-k-no",
+        "hotels": [
+            {
+                "name": "The Plaza Hotel",
+                "price": 500
+            },
+            {
+                "name": "New York Marriott Marquis",
+                "price": 450
+            },
+            {
+                "name": "The Ritz-Carlton New York, Central Park",
+                "price": 550
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "price": 300,
+        "city": "Los Angeles",
+        "desc": "Los Angeles, the entertainment capital of the world, offers a mix of sunny beaches, glamorous neighborhoods, and Hollywood attractions. Explore the Walk of Fame, visit iconic film studios, and enjoy the laid-back California lifestyle.",
+        "img": "https://lh5.googleusercontent.com/p/AF1QipMTICYDHvUpfLxAQ6nlqzaO8sUAg1GmeBg6ainT=w675-h390-n-k-no",
+        "hotels": [
+            {
+                "name": "The Beverly Hills Hotel",
+                "price": 600
+            },
+            {
+                "name": "Four Seasons Hotel Los Angeles at Beverly Hills",
+                "price": 550
+            },
+            {
+                "name": "The Hollywood Roosevelt",
+                "price": 400
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "price": 500,
+        "city": "Chicago",
+        "desc": "Chicago, known for its stunning architecture and deep-dish pizza, is a city of vibrant neighborhoods and rich cultural heritage. Visit Millennium Park, explore the Art Institute of Chicago, and enjoy the lively music scene.",
+        "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS9dBhwUsIG6LX7XEqt_Pg39E_nv9em-ANM-L12o3KPeTaIuanmVxAS9TeuISef8vZHYaxBX-onledGMpl3bicY0qRHtCUA9JOotNqVmA",
+        "hotels": [
+            {
+                "name": "The Langham, Chicago",
+                "price": 450
+            },
+            {
+                "name": "Four Seasons Hotel Chicago",
+                "price": 500
+            },
+            {
+                "name": "The Peninsula Chicago",
+                "price": 550
+            }
+        ]
+    }
+]
