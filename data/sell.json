@@ -86,5 +86,27 @@
     "huespedes": "1",
     "dias": "1",
     "total": "$700"
+  },
+  {
+    "nombre": "asd",
+    "apellido": "Medina",
+    "telefono": "23242",
+    "email": "tomasmedina962@gmail.com",
+    "destino": "New York",
+    "hotel": "The Plaza Hotel",
+    "huespedes": "1",
+    "dias": "1",
+    "total": "$700"
+  },
+  {
+    "nombre": "asd",
+    "apellido": "Medina",
+    "telefono": "2324",
+    "email": "tomasmedina962@gmail.com",
+    "destino": "New York",
+    "hotel": "New York Marriott Marquis",
+    "huespedes": "1",
+    "dias": "1",
+    "total": "$650"
   }
 ]

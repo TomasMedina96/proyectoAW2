@@ -1,5 +1,6 @@
 import { navbar } from '../../components/navbar.js'
 import { allCiudades } from '../../api/ciudades.api.js'
+import { HotelsByCity } from '../../api/hotel.api.js'
 const header = document.getElementById('header')
 header.innerHTML = navbar()
 
@@ -10,14 +11,14 @@ const inputCant = document.getElementById('cant')
 const inputDays = document.getElementById('days')
 const selectedCity = JSON.parse(localStorage.getItem('selectedCity'))
 let city = []
+let ciudades = []
 const getTotal = () => {
     const cant = inputCant.value 
     const days = inputDays.value 
-    const selectedHotel = city.hotels.find(hotel => hotel.name === hotelSelect.value)
-    
-    if(cant > 0 && days > 0){
+    const selectedHotel = ciudades[0].hotels.find(hotel => hotel.name === hotelSelect.value)
+
     totalP.textContent = `$${cant * days * selectedHotel.price + city.price}`
-    }
+    
 
 }
 
@@ -51,7 +52,9 @@ document.addEventListener('DOMContentLoaded', async()=>{
 
     let hotels = ``
 
-    city.hotels.forEach(hotel => {
+    ciudades = await HotelsByCity(selectedCity)
+
+    ciudades[0].hotels.forEach(hotel => {
         hotels += `<option>${hotel.name}</option>`
     })
 

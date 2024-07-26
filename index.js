@@ -2,6 +2,8 @@ import express from 'express'
 import cors from 'cors'
 import ciudadesRouter from './routes/ciudades.routes.js'
 import sellRouter from './routes/sell.routes.js'
+import hotelsRouter from './routes/hoteles.routes.js'
+
 
 
 
@@ -22,4 +24,5 @@ app.use(cors({
 
 app.use('/ciudades', ciudadesRouter)
 app.use('/sell', sellRouter)
+app.use('/hoteles', hotelsRouter)
 

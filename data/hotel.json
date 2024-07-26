@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "hotels": [
+            {
+                "name": "The Plaza Hotel",
+                "price": 500
+            },
+            {
+                "name": "New York Marriott Marquis",
+                "price": 450
+            },
+            {
+                "name": "The Ritz-Carlton New York, Central Park",
+                "price": 550
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "hotels": [
+            {
+                "name": "The Beverly Hills Hotel",
+                "price": 600
+            },
+            {
+                "name": "Four Seasons Hotel Los Angeles at Beverly Hills",
+                "price": 550
+            },
+            {
+                "name": "The Hollywood Roosevelt",
+                "price": 400
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "hotels": [
+            {
+                "name": "The Langham, Chicago",
+                "price": 450
+            },
+            {
+                "name": "Four Seasons Hotel Chicago",
+                "price": 500
+            },
+            {
+                "name": "The Peninsula Chicago",
+                "price": 550
+            }
+        ]
+    }
+]
