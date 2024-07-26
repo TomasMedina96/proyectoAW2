@@ -108,5 +108,16 @@
     "huespedes": "1",
     "dias": "1",
     "total": "$650"
+  },
+  {
+    "nombre": "Tomas",
+    "apellido": "Medina",
+    "telefono": "1231",
+    "email": "tomasmedina962@gmail.com",
+    "destino": "Chicago",
+    "hotel": "Four Seasons Hotel Chicago",
+    "huespedes": "1",
+    "dias": "1",
+    "total": "$1000"
   }
 ]
